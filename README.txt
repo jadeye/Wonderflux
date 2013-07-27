@@ -1,5 +1,5 @@
 WONDERFLUX WORDPRESS THEME FRAMEWORK
-VERSION v1.1BETA
+VERSION v2.0ALPHA
 
 Copyright (c)2013 Jonny Allbut 
 Jonnyauk - http://jonnya.net

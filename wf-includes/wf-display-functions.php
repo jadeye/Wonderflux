@@ -498,7 +498,7 @@ class wflux_display_code extends wflux_data {
 
 /**
 * @since 0.913
-* @updated 1.1
+* @updated 2.0
 * Core display functions that output CSS
 */
 class wflux_display_css extends wflux_display_code {
@@ -506,7 +506,7 @@ class wflux_display_css extends wflux_display_code {
 	/**
 	*
 	* @since 0.2
-	* @updated 1.1
+	* @updated 2.0
 	*
 	* Defines size conventions to use in template grid systems to avoid putting actual numbers into templates
 	* By using this function to define containers, you can dynamically resize the whole layout
@@ -521,6 +521,7 @@ class wflux_display_css extends wflux_display_code {
 	* @param size = Relative size definition to full width of site - eg 'half', 'quarter', 'twothird'
 	* @param class = Extra CSS classes you want to include in definition, uses spaces if more than one CSS class
 	* @param id = CSS div ID if required
+	* @param responsive = Accepts array of values to override default responive size behaviour
 	* @param last = Put on last container inside row, eg half, half LAST
 	* @param move = Push and pull a div, not using at moment
 	* @param divoutput = Wraps output in opening and closing div tags - useful for blocks of code
@@ -533,6 +534,7 @@ class wflux_display_css extends wflux_display_code {
 			'size' => 'full',
 			'class' => '',
 			'id' => '',
+			'responsive' => '',
 			'last' => 'N',
 			'move' => '',
 			'divoutput' => 'N',
